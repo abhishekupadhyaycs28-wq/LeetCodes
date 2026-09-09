@@ -12,10 +12,6 @@ public:
         for (int i = 0; i<n; i++) {
 
             fr[int(s[i])-97]++;
-
-        }
-        for (int i = 0; i<m; i++) {
-
             fr[int(t[i])-97]--;
 
         }
@@ -29,6 +25,10 @@ public:
         }
 
         return true;
+
+
+        
+
 
     }
 };
